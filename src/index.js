@@ -1,17 +1,39 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
+
+// Use of jsx 
+// apply html js and css code using jsx
+
+const todoTitle="Hello this is Title"
+const todoDesc="Hello this is Description"
+const currentYear=new Date().getFullYear()
+const currentDate=new Date().getDate()
+const currentMonth=new Date().getMonth()
+const currentTime=new Date().getTime()
+
+// inline css
+const firstCss={color:"red",
+                fontSize:"3rem",
+                backgroundColor:"purple",
+                textAlign:"center",
+                padding:"15px"
+            }
+// external css from public folder style.css file
+
+
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+<div>
+<p style={firstCss}>{todoTitle}</p>
+<p className='DateCss'>{todoDesc}</p>
+<p>{"Year :"+currentYear}</p>
+<p>{"Month :"+currentMonth}</p>
+<p>{"Date :"+currentDate}</p>
+<p>{"Time :"+currentTime}</p>
+<p>{currentMonth+"/"+currentDate+"/"+currentYear}</p>
+</div>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
