@@ -8,7 +8,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 // Use of jsx 
 // apply html js and css code using jsx
 
-const todoTitle="Hello this is Title"
+const todoTitle="Style using jsx css"
 const todoDesc="Hello this is Description"
 const currentYear=new Date().getFullYear()
 const currentDate=new Date().getDate()
@@ -27,13 +27,17 @@ const firstCss={color:"red",
 
 root.render(
 <div>
-<p style={firstCss}>{todoTitle}</p>
-<p className='DateCss'>{todoDesc}</p>
-<p>{"Year :"+currentYear}</p>
-<p>{"Month :"+currentMonth}</p>
+<div className='card'>
+<p className='cardTitle'>{todoTitle}</p>
+<p className='cardDesc'>{todoDesc}</p>
+<p className='cardDate'>{currentMonth+"/"+currentDate+"/"+currentYear}</p>
+</div>
+
+<p style={firstCss}>{"Year :"+currentYear}</p>
+<p className='DateCss'>{"Month :"+currentMonth}</p>
 <p>{"Date :"+currentDate}</p>
 <p>{"Time :"+currentTime}</p>
-<p>{currentMonth+"/"+currentDate+"/"+currentYear}</p>
+
 </div>
 );
 
