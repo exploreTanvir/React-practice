@@ -2,6 +2,14 @@
   margin: 0;
   padding: 0;
 }
+.headingCss {
+  font-size: 2rem;
+  background: purple;
+  padding: 15px;
+  text-align: center;
+  color: white;
+  margin-top: 5px;
+}
 
 .DateCss {
   background-color: aqua;
@@ -10,7 +18,9 @@
   color: red;
   padding: 15px;
 }
-
+.main {
+  text-align: center;
+}
 .card {
   background: #ffda77;
   box-shadow: 2px 4px 4px gray;
