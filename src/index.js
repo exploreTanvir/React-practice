@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 
 
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 
@@ -25,19 +26,24 @@ const firstCss={color:"red",
 // external css from public folder style.css file
 
 
+//Functional component
+function Card(){
+    return <div className='card'>
+     <p className='cardTitle'>{todoTitle}</p>
+     <p className='cardDesc'>{todoDesc}</p>
+     <p className='cardDate'>{currentMonth+"/"+currentDate+"/"+currentYear}</p>
+     </div>
+ }
+
 root.render(
 <div>
-<div className='card'>
-<p className='cardTitle'>{todoTitle}</p>
-<p className='cardDesc'>{todoDesc}</p>
-<p className='cardDate'>{currentMonth+"/"+currentDate+"/"+currentYear}</p>
-</div>
-
+    <Card/>
+    <Card/>
+    
 <p style={firstCss}>{"Year :"+currentYear}</p>
 <p className='DateCss'>{"Month :"+currentMonth}</p>
 <p>{"Date :"+currentDate}</p>
 <p>{"Time :"+currentTime}</p>
-
 </div>
 );
 
