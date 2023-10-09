@@ -26,13 +26,13 @@ const todos= [
 
 
 const UniqueList = () => {
-    console.log(uuidv4());
   return (
     <div>
         {todos.map(
             (todo)=>{
                 return (
                     <div key={todo.id}>
+                        <h3>{todo.id}</h3>
                         <h3>{todo.Name}</h3>
                         <h3>{todo.description}</h3>
                     </div>
