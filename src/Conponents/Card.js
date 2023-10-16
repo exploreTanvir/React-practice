@@ -15,15 +15,13 @@ function Card(props){
 
     return<div className="main">
 <div className='card'>
-     <p className='cardTitle'>{props.todoTitle}</p> {/*Using props from app.js file*/}
      <p className='cardTitle'>{todoTitle}</p> {/*Using distruction*/}
-     <p className='cardDesc'>{props.todoDesc}</p> {/*Using props from app.js file*/}
-     <p className='cardDesc'>{todoDesc}</p>{/*Using distruction*/}
-     <p className='cardDate'>{currentMonth+"/"+currentDate+"/"+currentYear}</p>
+     <p className='cardDesc'>{todoDesc}</p>Using distruction
+     <p className='cardDate'>{currentMonth+ "/"+currentDate+"/"+currentYear}</p>
      </div>
     </div>
  }
 
 
 
-export default Card 
+export default Card
