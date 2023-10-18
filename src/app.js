@@ -1,5 +1,7 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 import React from "react";
 import Icons from "./Conponents/Icons";
+import React_Bootstrap from "./Conponents/React_BootStrapp";
 
 function App(){
     // let items=[]
@@ -8,6 +10,7 @@ function App(){
     return <div>
 
     <Icons/>
+    <React_Bootstrap/>
    
 
 
