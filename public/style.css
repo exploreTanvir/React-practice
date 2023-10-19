@@ -44,6 +44,15 @@
 }
 
 .icon {
-  font-size: 3rem;
-  color: rgb(42, 42, 206);
+  font-size: 4rem;
+  margin: 1rem;
+}
+Button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background: limegreen;
+  color: white;
+  margin: 10px;
+  font-size: 2rem;
 }

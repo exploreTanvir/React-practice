@@ -2,7 +2,7 @@ import React from 'react';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
-const React_Bootstrap = () => {
+const React_Bootstrapp = () => {
   return (
     <Card>
        <Card.Body>
@@ -14,4 +14,4 @@ const React_Bootstrap = () => {
   )
 }
 
-export default React_Bootstrap
+export default React_Bootstrapp
