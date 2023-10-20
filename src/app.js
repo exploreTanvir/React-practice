@@ -1,7 +1,8 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from "react";
 import Icons from "./Conponents/Icons";
-import React_Bootstrap from "./Conponents/React_BootStrapp";
+// import React_Bootstrap from "./Conponents/React_BootStrapp";
+import Render from './Conditional_Rendering/Render';
 import State from './Conponents/State';
 
 function App(){
@@ -11,8 +12,9 @@ function App(){
     return <div>
 
     <Icons/>
-    <React_Bootstrap/>
+    {/* <React_Bootstrap/> */}
    <State count="0"/>
+   <Render/>
 
 
     </div>
