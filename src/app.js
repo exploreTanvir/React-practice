@@ -4,6 +4,7 @@ import Icons from "./Conponents/Icons";
 // import React_Bootstrap from "./Conponents/React_BootStrapp";
 import Render from './Conditional_Rendering/Render';
 import State from './Conponents/State';
+import EventHandler from './Event_Handler/EventHandler';
 
 function App(){
     // let items=[]
@@ -15,6 +16,7 @@ function App(){
     {/* <React_Bootstrap/> */}
    <State count="0"/>
    <Render/>
+   <EventHandler/>
 
 
     </div>
