@@ -25,6 +25,7 @@ export default class BindEvent extends Component {
     const {count}=this.state
     return (
       <div>
+        <h1 className='component'>Bind Event Handler component</h1>
         <h1>{count}</h1>
         <button onClick={this.increment.bind(this)}> increase </button>
       </div>

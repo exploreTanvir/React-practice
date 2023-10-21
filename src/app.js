@@ -5,6 +5,7 @@ import Icons from "./Conponents/Icons";
 import BindEvent from './Binding Event Handler/BindEvent';
 import Render from './Conditional_Rendering/Render';
 import State from './Conponents/State';
+import UseStateHooks from './Conponents/UseStateHooks';
 import EventHandler from './Event_Handler/EventHandler';
 
 function App(){
@@ -19,6 +20,7 @@ function App(){
    <Render/>
    <EventHandler/>
    <BindEvent/>
+   <UseStateHooks/>
 
 
     </div>

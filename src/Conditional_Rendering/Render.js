@@ -17,6 +17,7 @@ export default class Render extends Component {
 
     return(
         <div>
+          <h1 className='component'>Conditional Rendering component</h1>
             {content}
         </div>
     )

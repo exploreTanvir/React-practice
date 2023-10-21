@@ -56,3 +56,10 @@ Button {
   margin: 10px;
   font-size: 2rem;
 }
+
+.component {
+  background: #ff6f02;
+  color: white;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}

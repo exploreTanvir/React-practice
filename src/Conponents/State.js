@@ -34,6 +34,7 @@ export default class State extends Component {
     const {count,messege}=this.state
     return (
       <div> 
+        <h1 className='component'>State component</h1>
         <h1>Count : {count}</h1>
         <Button onClick={this.increment} disabled={count===5?true:false}> <GiHeartPlus className='icon'/> </Button>
         <Button onClick={this.decrement} disabled={count===0?true:false}> <GiHeartMinus  className='icon'/> </Button>
