@@ -7,6 +7,7 @@ import Render from './Conditional_Rendering/Render';
 import State from './Conponents/State';
 import UseStateHooks from './Conponents/UseStateHooks';
 import EventHandler from './Event_Handler/EventHandler';
+import EventBubbling from './Event_Handler/Event_Bubbling';
 
 function App(){
     // let items=[]
@@ -21,6 +22,7 @@ function App(){
    <EventHandler/>
    <BindEvent/>
    <UseStateHooks/>
+   <EventBubbling/>
 
 
     </div>
