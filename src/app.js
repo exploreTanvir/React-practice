@@ -8,6 +8,7 @@ import State from './Conponents/State';
 import UseStateHooks from './Conponents/UseStateHooks';
 import EventHandler from './Event_Handler/EventHandler';
 import EventBubbling from './Event_Handler/Event_Bubbling';
+import Form from './Form/Form';
 
 function App(){
     // let items=[]
@@ -16,13 +17,13 @@ function App(){
     return <div>
 
     <Icons/>
-    {/* <React_Bootstrap/> */}
    <State count="0"/>
    <Render/>
    <EventHandler/>
    <BindEvent/>
    <UseStateHooks/>
    <EventBubbling/>
+   <Form/>
 
 
     </div>

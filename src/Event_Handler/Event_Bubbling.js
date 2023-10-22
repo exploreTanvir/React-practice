@@ -7,6 +7,7 @@ const EventBubbling = () => {
     }
     const ChildEvent=(event)=>{
         event.stopPropagation()
+        alert("Go to console")
         console.log("Child event ",event)
     }
   return (
