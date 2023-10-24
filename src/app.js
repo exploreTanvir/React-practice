@@ -9,6 +9,8 @@ import UseStateHooks from './Conponents/UseStateHooks';
 import EventHandler from './Event_Handler/EventHandler';
 import EventBubbling from './Event_Handler/Event_Bubbling';
 import Form from './Form/Form';
+import Home from './State_Lifting/Home';
+import Parant from './State_Lifting/Parent';
 
 
 function App(){
@@ -25,6 +27,8 @@ function App(){
    <UseStateHooks/>
    <EventBubbling/>
    <Form/>
+   <Parant/>
+   <Home/>
 
 
     </div>

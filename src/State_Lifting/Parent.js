@@ -1,5 +1,5 @@
 import React from 'react'
-import Child from './State_Lifting/Child'
+import Child from './Child'
 
 const Parant = () => {
     const parantdata="Hello i am from parent (App)"
