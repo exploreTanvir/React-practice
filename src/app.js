@@ -1,4 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './Form Validation/App.css';
+
 import React from "react";
 import Icons from "./Conponents/Icons";
 // import React_Bootstrap from "./Conponents/React_BootStrapp";
@@ -11,6 +13,7 @@ import EventBubbling from './Event_Handler/Event_Bubbling';
 import Form from './Form/Form';
 import Home from './State_Lifting/Home';
 import Parant from './State_Lifting/Parent';
+import FormValidation from './Form Validation/FormValidation';
 
 
 function App(){
@@ -29,6 +32,9 @@ function App(){
    <Form/>
    <Parant/>
    <Home/>
+   <FormValidation/>
+   
+   
 
 
     </div>
