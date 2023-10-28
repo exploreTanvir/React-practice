@@ -18,7 +18,7 @@ const Form = () => {
                 {
                     name:yup.string().min(2,"Name must have atleast 2 characters").required(),
                     email:yup.string().email().required(),
-                    password:yup.string().min(5, "Password must have atleast 2 characters").required(),
+                    password:yup.string().min(6, "Password must have atleast 6 characters").required(),
                 }
             )
             
