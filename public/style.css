@@ -63,3 +63,7 @@ Button {
   margin-bottom: 1rem;
   margin-top: 1rem;
 }
+
+span {
+  color: black;
+}
