@@ -32,6 +32,7 @@ const Form = () => {
 
   return (
     <div className='form'>
+        <h1 className='component'>Form Validation component</h1>
         <h1>Form validation</h1>
 <form onSubmit={Formik.handleSubmit}>
        <div>

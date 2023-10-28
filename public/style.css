@@ -47,7 +47,7 @@
   font-size: 4rem;
   margin: 1rem;
 }
-Button {
+button {
   padding: 10px;
   border: none;
   border-radius: 5px;
@@ -62,8 +62,15 @@ Button {
   color: white;
   margin-bottom: 1rem;
   margin-top: 1rem;
+  text-align: center;
 }
 
 span {
   color: black;
+}
+
+.toggle{
+  margin: 1rem;
+  padding: 1rem;background: pink;
+
 }

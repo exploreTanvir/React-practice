@@ -10,10 +10,11 @@ import State from './Conponents/State';
 import UseStateHooks from './Conponents/UseStateHooks';
 import EventHandler from './Event_Handler/EventHandler';
 import EventBubbling from './Event_Handler/Event_Bubbling';
+import FormValidation from './Form Validation/FormValidation';
 import Form from './Form/Form';
 import Home from './State_Lifting/Home';
 import Parant from './State_Lifting/Parent';
-import FormValidation from './Form Validation/FormValidation';
+import Toggle from './Toggle/Toggle';
 
 
 function App(){
@@ -33,7 +34,7 @@ function App(){
    <Parant/>
    <Home/>
    <FormValidation/>
-   
+   <Toggle/>
    
 
 
