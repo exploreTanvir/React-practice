@@ -1,0 +1,32 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f1e1e1;
+  padding: 1rem;
+}
+.faqs {
+  width: 50rem;
+  max-width: 100%;
+  background: white;
+  border-radius: 0.6rem;
+  padding: 1rem;
+}
+.faq {
+  margin: 1rem;
+  background: #e6e6e6;
+  padding: 1rem;
+  border-radius: 0.6rem;
+  box-shadow: 0.1rem 0.1rem #2c2c2c;
+}
+.faq section {
+  display: flex;
+  justify-content: space-between;
+}
+h1 {
+  text-align: center;
+}
+.btn {
+  height: 50%;
+}
