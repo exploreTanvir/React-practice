@@ -5,6 +5,7 @@ const Toggle = () => {
     const ShowHandle=()=>{
         setToggle(!toggle)
     }
+  
   return (
     <div>
         <h1 className='component'>Toggle component</h1>
