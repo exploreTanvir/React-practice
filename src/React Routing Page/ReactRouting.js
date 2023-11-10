@@ -5,6 +5,7 @@ import Blog from "./Pages/Blog"
 import Contact from "./Pages/Contact"
 import Error from './Pages/Error'
 import Home from "./Pages/Home"
+import User from "./Pages/User"
 
 
 const ReactRouting = () => {
@@ -17,6 +18,8 @@ const ReactRouting = () => {
         <Route path="/blogs" element={<Blocks/>}/>
         <Route path="/blogs/:title" element={<Blog/>}/>
         <Route path="/*" element={<Error/>}/>
+        {/* <Route path="/User/:userID" element={<User/>}/> */}
+        <Route path="/User" element={<User/>}/>
         
           
 

@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-
+import { Link } from "react-router-dom"
 import { blogsData } from "./Data.js"
 
 const SliceText=(str,num)=>{
@@ -22,7 +22,7 @@ const Blocks = () => {
             return <article>
               <h2>{title}</h2>
               <p>{SliceText(body,100)}</p>
-              <link to={title}>Learn More</link>
+              <Link to={title}>Learn More</Link>
             </article>
           })}
         </section>
