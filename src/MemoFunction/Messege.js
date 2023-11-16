@@ -2,10 +2,13 @@
 
 import { memo } from "react"
 
-const Messege =() => {         
+const Messege =({CountMessege,onHandleIncrement}) => {         
         console.log("Messege Rendaring")
       return (
-        <div>Messege</div>
+        <div>
+          <p>Send {CountMessege} messege</p>
+          <button onClick={onHandleIncrement}>increment</button>
+        </div>
       )
     }
 
